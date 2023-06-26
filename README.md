@@ -1,70 +1,39 @@
-# Getting Started with Create React App
+# jQuery to React Migration Exercise
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This exercise is aimed at migrating a simple task list application from jQuery and HTML to React. The goal is to recreate the functionality using React components and state management.
 
-## Available Scripts
+## Requirements
 
-In the project directory, you can run:
+To complete this exercise, you will need:
 
-### `npm start`
+- Node.js and npm installed on your machine
+- A code editor of your choice
+- Basic knowledge of HTML, JavaScript, and React
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Getting Started
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+1. Clone or download this repository to your local machine.
+2. Open the project in your code editor.
+3. Install the dependencies by running `npm install` in the project directory.
+4. Start the development server with `npm start`.
 
-### `npm test`
+## Task
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Your task is to migrate the provided jQuery and HTML code to React. You will need to create React components and manage state to recreate the functionality of the task list application.
 
-### `npm run build`
+The original jQuery and HTML code is located in the `src/index.html` file. You can refer to it as a reference while building the React components.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Steps to Follow
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+1. Create a new React component for the task list application.
+2. Implement the necessary state management using React's `useState` hook.
+3. Replace the jQuery event handlers with React event handlers.
+4. Update the HTML markup to JSX syntax within the React components.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Feel free to use any additional libraries or tools you are comfortable with to complete the migration.
 
-### `npm run eject`
+## Submission
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Once you have completed the migration, you can submit your solution by creating a pull request or sharing your code with the interviewer.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Good luck with the migration! If you have any questions, feel free to ask.
